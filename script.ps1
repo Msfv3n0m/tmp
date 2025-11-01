@@ -1,3 +1,6 @@
+Install-WindowsFeature -Name Windows-Defender-Features
+Start-Service -Name WinDefend
+Update-MpSignature
 # Enable UAC, Firewall, and Defender - Undo registry and service disables
 
 # Enable UAC
